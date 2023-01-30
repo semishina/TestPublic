@@ -1,0 +1,912 @@
+{
+	"info": {
+		"_postman_id": "49e6737b-52df-43de-87cf-e2ab08474acf",
+		"name": "Home work 7 modul",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25449215"
+	},
+	"item": [
+		{
+			"name": "Pairwise Stroka1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}?page=1&page_size=6&{{species name}}=Обезьянка&{{breed}}=indian&{{gender}}=m&{{age}}=0",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "Обезьянка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "indian"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "m"
+						},
+						{
+							"key": "{{age}}",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=Обезьянка&{{breed}}=cockatiel&{{gender}}=f&{{age}}=1",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "Обезьянка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "cockatiel"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "f"
+						},
+						{
+							"key": "{{age}}",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}?page=1&page_size=6&{{species name}}=Обезьянка&{{breed}}=german_shepherd&{{age}}=2",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "Обезьянка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "{{age}}",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}?page=1&page_size=6&{{species name}}=Обезьянка&{{breed}}=pitbull",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "Обезьянка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "pitbull"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кот&{{breed}}=cockatiel",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кот"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "cockatiel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka6",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кот&{{breed}}=german_shepherd&{{age}}=0",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кот"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "{{age}}",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka7",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кот&{{breed}}=pitbull&{{gender}}=m&{{age}}=1",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кот"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "pitbull"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "m"
+						},
+						{
+							"key": "{{age}}",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka8",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кот&{{breed}}=indian&{{gender}}=f&{{age}}=2",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кот"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "indian"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "f"
+						},
+						{
+							"key": "{{age}}",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka9",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кошка&{{breed}}=german_shepherd&{{gender}}=m&{{age}}=2",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кошка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "m"
+						},
+						{
+							"key": "{{age}}",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka10",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кошка&{{breed}}=pitbull&{{gender}}=f",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кошка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "pitbull"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka11",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кошка&{{breed}}=indian&{{age}}=0",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кошка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "indian"
+						},
+						{
+							"key": "{{age}}",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka12",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=кошка&{{breed}}=cockatiel&{{age}}=1",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "кошка"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "cockatiel"
+						},
+						{
+							"key": "{{age}}",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=попугай&{{breed}}=pitbull&{{age}}=1",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "попугай"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "pitbull"
+						},
+						{
+							"key": "{{age}}",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka14",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=попугай&{{breed}}=indian&{{age}}=2",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "попугай"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "indian"
+						},
+						{
+							"key": "{{age}}",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka15",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=попугай&{{breed}}=cockatiel&{{gender}}=m",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "попугай"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "cockatiel"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "m"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise Stroka16",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{baseURL}}/?page=1&page_size=6&{{species name}}=попугай&{{breed}}=german_shepherd&{{gender}}=f&{{age}}=0",
+					"protocol": "http",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "{{species name}}",
+							"value": "попугай"
+						},
+						{
+							"key": "{{breed}}",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "{{gender}}",
+							"value": "f"
+						},
+						{
+							"key": "{{age}}",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "158.160.56.133/api/pet",
+			"type": "string"
+		},
+		{
+			"key": "species name",
+			"value": "species__name",
+			"type": "string"
+		},
+		{
+			"key": "breed",
+			"value": "breed__code",
+			"type": "string"
+		},
+		{
+			"key": "gender",
+			"value": "gender__code",
+			"type": "string"
+		},
+		{
+			"key": "age",
+			"value": "age",
+			"type": "string"
+		}
+	]
+}
